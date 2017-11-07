@@ -13,10 +13,52 @@
 		5738FFB51FB05B0C00C64C46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5738FFB41FB05B0C00C64C46 /* Assets.xcassets */; };
 		5738FFB81FB05B0C00C64C46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5738FFB61FB05B0C00C64C46 /* LaunchScreen.storyboard */; };
 		5738FFBB1FB05B0C00C64C46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5738FFBA1FB05B0C00C64C46 /* main.m */; };
-		5738FFCA1FB05E4A00C64C46 /* UIColor+ImageGetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5738FFC91FB05E4A00C64C46 /* UIColor+ImageGetColor.m */; };
+		E97E152392952065A409CF12 /* Pods_YFNotePaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9B39335A88EE1B7A917080 /* Pods_YFNotePaper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		452F0C15AC9BD73C99FF9F4D /* Pods-YFNotePaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFNotePaper.release.xcconfig"; path = "Pods/Target Support Files/Pods-YFNotePaper/Pods-YFNotePaper.release.xcconfig"; sourceTree = "<group>"; };
+		57027C931FB13669004CA66E /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		57027C941FB13669004CA66E /* NotificationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
+		57027C951FB13669004CA66E /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		57027C961FB13669004CA66E /* VendorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendorMacro.h; sourceTree = "<group>"; };
+		57027C981FB13669004CA66E /* VendorsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendorsModel.h; sourceTree = "<group>"; };
+		57027C991FB13669004CA66E /* VendorsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VendorsModel.m; sourceTree = "<group>"; };
+		57027C9C1FB13669004CA66E /* NSAttributedString+SizeLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+SizeLab.h"; sourceTree = "<group>"; };
+		57027C9D1FB13669004CA66E /* NSAttributedString+SizeLab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+SizeLab.m"; sourceTree = "<group>"; };
+		57027C9E1FB13669004CA66E /* UIDevice+Ligs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Ligs.h"; sourceTree = "<group>"; };
+		57027C9F1FB13669004CA66E /* UIDevice+Ligs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Ligs.m"; sourceTree = "<group>"; };
+		57027CA01FB13669004CA66E /* UIView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		57027CA11FB13669004CA66E /* UIView+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		57027CA31FB13669004CA66E /* CSButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSButton.h; sourceTree = "<group>"; };
+		57027CA41FB13669004CA66E /* CSButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSButton.m; sourceTree = "<group>"; };
+		57027CA51FB13669004CA66E /* CSTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSTabBar.h; sourceTree = "<group>"; };
+		57027CA61FB13669004CA66E /* CSTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSTabBar.m; sourceTree = "<group>"; };
+		57027CA81FB13669004CA66E /* FMDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDBManager.h; sourceTree = "<group>"; };
+		57027CA91FB13669004CA66E /* FMDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBManager.m; sourceTree = "<group>"; };
+		57027CAB1FB13669004CA66E /* HyPopMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HyPopMenuView.h; sourceTree = "<group>"; };
+		57027CAC1FB13669004CA66E /* HyPopMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HyPopMenuView.m; sourceTree = "<group>"; };
+		57027CAD1FB13669004CA66E /* HyPopMenuViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HyPopMenuViewDelegate.h; sourceTree = "<group>"; };
+		57027CAE1FB13669004CA66E /* PopMenuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopMenuButton.h; sourceTree = "<group>"; };
+		57027CAF1FB13669004CA66E /* PopMenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopMenuButton.m; sourceTree = "<group>"; };
+		57027CB01FB13669004CA66E /* PopMenuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopMenuModel.h; sourceTree = "<group>"; };
+		57027CB11FB13669004CA66E /* PopMenuModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopMenuModel.m; sourceTree = "<group>"; };
+		57027CB21FB13669004CA66E /* UIColor+ImageGetColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ImageGetColor.h"; sourceTree = "<group>"; };
+		57027CB31FB13669004CA66E /* UIColor+ImageGetColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ImageGetColor.m"; sourceTree = "<group>"; };
+		57027CB51FB13669004CA66E /* Jastor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jastor.h; sourceTree = "<group>"; };
+		57027CB61FB13669004CA66E /* Jastor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jastor.m; sourceTree = "<group>"; };
+		57027CB71FB13669004CA66E /* JastorRuntimeHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JastorRuntimeHelper.h; sourceTree = "<group>"; };
+		57027CB81FB13669004CA66E /* JastorRuntimeHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JastorRuntimeHelper.m; sourceTree = "<group>"; };
+		57027CBA1FB13669004CA66E /* CommonUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		57027CBB1FB13669004CA66E /* CommonUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		57027CBC1FB13669004CA66E /* GTMBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		57027CBD1FB13669004CA66E /* GTMBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		57027CBE1FB13669004CA66E /* UIViewExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		57027CBF1FB13669004CA66E /* UIViewExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		57027CC11FB13669004CA66E /* UIScrollView+HeaderScaleImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HeaderScaleImage.h"; sourceTree = "<group>"; };
+		57027CC21FB13669004CA66E /* UIScrollView+HeaderScaleImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HeaderScaleImage.m"; sourceTree = "<group>"; };
+		57027CC41FB13669004CA66E /* ResourceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResourceModel.h; sourceTree = "<group>"; };
+		57027CC51FB13669004CA66E /* ResourceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResourceModel.m; sourceTree = "<group>"; };
 		5738FFA81FB05B0C00C64C46 /* YFNotePaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFNotePaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5738FFAB1FB05B0C00C64C46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5738FFAC1FB05B0C00C64C46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,9 +69,8 @@
 		5738FFB71FB05B0C00C64C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5738FFB91FB05B0C00C64C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5738FFBA1FB05B0C00C64C46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5738FFC61FB05BC600C64C46 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
-		5738FFC81FB05E4A00C64C46 /* UIColor+ImageGetColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ImageGetColor.h"; sourceTree = "<group>"; };
-		5738FFC91FB05E4A00C64C46 /* UIColor+ImageGetColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ImageGetColor.m"; sourceTree = "<group>"; };
+		8B9B39335A88EE1B7A917080 /* Pods_YFNotePaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFNotePaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA61336D89417EA7CE2C8C3C /* Pods-YFNotePaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFNotePaper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YFNotePaper/Pods-YFNotePaper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +78,165 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E97E152392952065A409CF12 /* Pods_YFNotePaper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A3859626E7E284AEAADC8E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B9B39335A88EE1B7A917080 /* Pods_YFNotePaper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		208700EF2CDCD3804B91B973 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA61336D89417EA7CE2C8C3C /* Pods-YFNotePaper.debug.xcconfig */,
+				452F0C15AC9BD73C99FF9F4D /* Pods-YFNotePaper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57027C921FB13669004CA66E /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				57027C931FB13669004CA66E /* AppMacro.h */,
+				57027C941FB13669004CA66E /* NotificationMacro.h */,
+				57027C951FB13669004CA66E /* UtilsMacro.h */,
+				57027C961FB13669004CA66E /* VendorMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		57027C971FB13669004CA66E /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				57027C981FB13669004CA66E /* VendorsModel.h */,
+				57027C991FB13669004CA66E /* VendorsModel.m */,
+			);
+			name = Vendors;
+			path = ../../Desktop/NotePaper/NotePaper/notePaper/Vendors;
+			sourceTree = "<group>";
+		};
+		57027C9A1FB13669004CA66E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				57027C9B1FB13669004CA66E /* Category */,
+				57027CA21FB13669004CA66E /* CustomView */,
+				57027CA71FB13669004CA66E /* FMDB */,
+				57027CAA1FB13669004CA66E /* HyPopMenuView */,
+				57027CB41FB13669004CA66E /* Jastor */,
+				57027CB91FB13669004CA66E /* Utils */,
+				57027CC01FB13669004CA66E /* YZHeaderScaleImage */,
+			);
+			name = Helpers;
+			path = ../../Desktop/NotePaper/NotePaper/notePaper/Helpers;
+			sourceTree = "<group>";
+		};
+		57027C9B1FB13669004CA66E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				57027C9C1FB13669004CA66E /* NSAttributedString+SizeLab.h */,
+				57027C9D1FB13669004CA66E /* NSAttributedString+SizeLab.m */,
+				57027C9E1FB13669004CA66E /* UIDevice+Ligs.h */,
+				57027C9F1FB13669004CA66E /* UIDevice+Ligs.m */,
+				57027CA01FB13669004CA66E /* UIView+Additions.h */,
+				57027CA11FB13669004CA66E /* UIView+Additions.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		57027CA21FB13669004CA66E /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				57027CA31FB13669004CA66E /* CSButton.h */,
+				57027CA41FB13669004CA66E /* CSButton.m */,
+				57027CA51FB13669004CA66E /* CSTabBar.h */,
+				57027CA61FB13669004CA66E /* CSTabBar.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		57027CA71FB13669004CA66E /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				57027CA81FB13669004CA66E /* FMDBManager.h */,
+				57027CA91FB13669004CA66E /* FMDBManager.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		57027CAA1FB13669004CA66E /* HyPopMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				57027CAB1FB13669004CA66E /* HyPopMenuView.h */,
+				57027CAC1FB13669004CA66E /* HyPopMenuView.m */,
+				57027CAD1FB13669004CA66E /* HyPopMenuViewDelegate.h */,
+				57027CAE1FB13669004CA66E /* PopMenuButton.h */,
+				57027CAF1FB13669004CA66E /* PopMenuButton.m */,
+				57027CB01FB13669004CA66E /* PopMenuModel.h */,
+				57027CB11FB13669004CA66E /* PopMenuModel.m */,
+				57027CB21FB13669004CA66E /* UIColor+ImageGetColor.h */,
+				57027CB31FB13669004CA66E /* UIColor+ImageGetColor.m */,
+			);
+			path = HyPopMenuView;
+			sourceTree = "<group>";
+		};
+		57027CB41FB13669004CA66E /* Jastor */ = {
+			isa = PBXGroup;
+			children = (
+				57027CB51FB13669004CA66E /* Jastor.h */,
+				57027CB61FB13669004CA66E /* Jastor.m */,
+				57027CB71FB13669004CA66E /* JastorRuntimeHelper.h */,
+				57027CB81FB13669004CA66E /* JastorRuntimeHelper.m */,
+			);
+			path = Jastor;
+			sourceTree = "<group>";
+		};
+		57027CB91FB13669004CA66E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				57027CBA1FB13669004CA66E /* CommonUtil.h */,
+				57027CBB1FB13669004CA66E /* CommonUtil.m */,
+				57027CBC1FB13669004CA66E /* GTMBase64.h */,
+				57027CBD1FB13669004CA66E /* GTMBase64.m */,
+				57027CBE1FB13669004CA66E /* UIViewExt.h */,
+				57027CBF1FB13669004CA66E /* UIViewExt.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		57027CC01FB13669004CA66E /* YZHeaderScaleImage */ = {
+			isa = PBXGroup;
+			children = (
+				57027CC11FB13669004CA66E /* UIScrollView+HeaderScaleImage.h */,
+				57027CC21FB13669004CA66E /* UIScrollView+HeaderScaleImage.m */,
+			);
+			path = YZHeaderScaleImage;
+			sourceTree = "<group>";
+		};
+		57027CC31FB13669004CA66E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				57027CC41FB13669004CA66E /* ResourceModel.h */,
+				57027CC51FB13669004CA66E /* ResourceModel.m */,
+			);
+			name = Resource;
+			path = ../../Desktop/NotePaper/NotePaper/notePaper/Resource;
+			sourceTree = "<group>";
+		};
 		5738FF9F1FB05B0C00C64C46 = {
 			isa = PBXGroup;
 			children = (
 				5738FFAA1FB05B0C00C64C46 /* YFNotePaper */,
 				5738FFA91FB05B0C00C64C46 /* Products */,
+				208700EF2CDCD3804B91B973 /* Pods */,
+				1A3859626E7E284AEAADC8E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +251,11 @@
 		5738FFAA1FB05B0C00C64C46 /* YFNotePaper */ = {
 			isa = PBXGroup;
 			children = (
+				57027C9A1FB13669004CA66E /* Helpers */,
+				57027C921FB13669004CA66E /* Macro */,
+				57027CC31FB13669004CA66E /* Resource */,
+				57027C971FB13669004CA66E /* Vendors */,
 				5738FFC21FB05B9D00C64C46 /* Class */,
-				5738FFC11FB05B9D00C64C46 /* Helpers */,
-				5738FFC51FB05B9D00C64C46 /* Macro */,
 				5738FFC41FB05B9D00C64C46 /* Resource */,
 				5738FFC31FB05B9D00C64C46 /* Vendors */,
 				5738FFAB1FB05B0C00C64C46 /* AppDelegate.h */,
@@ -78,14 +269,6 @@
 				5738FFBA1FB05B0C00C64C46 /* main.m */,
 			);
 			path = YFNotePaper;
-			sourceTree = "<group>";
-		};
-		5738FFC11FB05B9D00C64C46 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				5738FFC71FB05E0D00C64C46 /* HyPopMenuView */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		5738FFC21FB05B9D00C64C46 /* Class */ = {
@@ -109,23 +292,6 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		5738FFC51FB05B9D00C64C46 /* Macro */ = {
-			isa = PBXGroup;
-			children = (
-				5738FFC61FB05BC600C64C46 /* UtilsMacro.h */,
-			);
-			path = Macro;
-			sourceTree = "<group>";
-		};
-		5738FFC71FB05E0D00C64C46 /* HyPopMenuView */ = {
-			isa = PBXGroup;
-			children = (
-				5738FFC81FB05E4A00C64C46 /* UIColor+ImageGetColor.h */,
-				5738FFC91FB05E4A00C64C46 /* UIColor+ImageGetColor.m */,
-			);
-			path = HyPopMenuView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,9 +299,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5738FFBE1FB05B0C00C64C46 /* Build configuration list for PBXNativeTarget "YFNotePaper" */;
 			buildPhases = (
+				82986478DC8D63CEC3D91388 /* [CP] Check Pods Manifest.lock */,
 				5738FFA41FB05B0C00C64C46 /* Sources */,
 				5738FFA51FB05B0C00C64C46 /* Frameworks */,
 				5738FFA61FB05B0C00C64C46 /* Resources */,
+				46320F069D2DD4C923C65ADB /* [CP] Embed Pods Frameworks */,
+				5A1EC587838DCBAEF6D935F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,12 +361,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46320F069D2DD4C923C65ADB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YFNotePaper/Pods-YFNotePaper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YFNotePaper/Pods-YFNotePaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A1EC587838DCBAEF6D935F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YFNotePaper/Pods-YFNotePaper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82986478DC8D63CEC3D91388 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YFNotePaper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5738FFA41FB05B0C00C64C46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5738FFCA1FB05E4A00C64C46 /* UIColor+ImageGetColor.m in Sources */,
 				5738FFB01FB05B0C00C64C46 /* ViewController.m in Sources */,
 				5738FFBB1FB05B0C00C64C46 /* main.m in Sources */,
 				5738FFAD1FB05B0C00C64C46 /* AppDelegate.m in Sources */,
@@ -332,6 +558,7 @@
 		};
 		5738FFBF1FB05B0C00C64C46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA61336D89417EA7CE2C8C3C /* Pods-YFNotePaper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -346,6 +573,7 @@
 		};
 		5738FFC01FB05B0C00C64C46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452F0C15AC9BD73C99FF9F4D /* Pods-YFNotePaper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
