@@ -1,0 +1,30 @@
+//
+//  YFNotePaperPCHFile.pch
+//  YFNotePaper
+//
+//  Created by tsaievan on 2017/11/7.
+//  Copyright © 2017年 tsaievan. All rights reserved.
+//
+
+#ifndef YFNotePaperPCHFile_pch
+#define YFNotePaperPCHFile_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "UtilsMacro.h"
+#import "AppMacro.h"
+#import "VendorMacro.h"
+
+#import "UIViewExt.h"
+#import "UIView+Additions.h"
+#import "CommonUtil.h"
+
+#import <Masonry/Masonry.h>
+//#import "NSString+SizeLab.h"
+//#import "NSAttributedString+SizeLab.h"
+
+#import "FMDBManager.h"
+#import "FMResultSet.h"
+
+#endif /* YFNotePaperPCHFile_pch */

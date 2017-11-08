@@ -45,6 +45,9 @@
 //获取设备的物理宽度
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 
+///< 获取设备的bounds
+#define ScreenBounds [UIScreen mainScreen].bounds
+
 #define iOS8 ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 8.0)
 
 #define REFRESH_HEIGHT              41  //自定义UITabBar的高度

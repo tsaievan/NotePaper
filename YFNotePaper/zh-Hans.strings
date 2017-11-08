@@ -1,0 +1,13 @@
+/* 
+  EN.strings
+  Deat
+
+ Created by 李世超 on 17/10/27.
+ Copyright © 2017年 李世超. All rights reserved.
+*/
+//首页TabBar文本
+"TBNote"                                   ="便签";
+"TBCapsule"                                ="胶囊";
+"TBPublish"                                ="发布";
+"TBTarget"                                 ="目标";
+"TBSetting"                                ="设置";
