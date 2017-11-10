@@ -22,7 +22,6 @@
 		57027D571FB13F45004CA66E /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 57027D3D1FB13F45004CA66E /* CommonUtil.m */; };
 		57027D581FB13F45004CA66E /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 57027D3F1FB13F45004CA66E /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		57027D591FB13F45004CA66E /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 57027D411FB13F45004CA66E /* UIViewExt.m */; };
-		57027D5A1FB13F45004CA66E /* UIScrollView+HeaderScaleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 57027D441FB13F45004CA66E /* UIScrollView+HeaderScaleImage.m */; };
 		57027D5B1FB13F45004CA66E /* VendorsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57027D471FB13F45004CA66E /* VendorsModel.m */; };
 		57027D5C1FB13F45004CA66E /* ResourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57027D4A1FB13F45004CA66E /* ResourceModel.m */; };
 		57027D5E1FB141A8004CA66E /* zh-Hans.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57027D5D1FB141A7004CA66E /* zh-Hans.strings */; };
@@ -105,8 +104,6 @@
 		57027D3F1FB13F45004CA66E /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		57027D401FB13F45004CA66E /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		57027D411FB13F45004CA66E /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
-		57027D431FB13F45004CA66E /* UIScrollView+HeaderScaleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HeaderScaleImage.h"; sourceTree = "<group>"; };
-		57027D441FB13F45004CA66E /* UIScrollView+HeaderScaleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HeaderScaleImage.m"; sourceTree = "<group>"; };
 		57027D461FB13F45004CA66E /* VendorsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VendorsModel.h; sourceTree = "<group>"; };
 		57027D471FB13F45004CA66E /* VendorsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VendorsModel.m; sourceTree = "<group>"; };
 		57027D491FB13F45004CA66E /* ResourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceModel.h; sourceTree = "<group>"; };
@@ -314,8 +311,6 @@
 		57027D421FB13F45004CA66E /* YZHeaderScaleImage */ = {
 			isa = PBXGroup;
 			children = (
-				57027D431FB13F45004CA66E /* UIScrollView+HeaderScaleImage.h */,
-				57027D441FB13F45004CA66E /* UIScrollView+HeaderScaleImage.m */,
 			);
 			path = YZHeaderScaleImage;
 			sourceTree = "<group>";
@@ -789,7 +784,6 @@
 				57027D541FB13F45004CA66E /* UIColor+ImageGetColor.m in Sources */,
 				57027DE21FB14665004CA66E /* SettingViewController.m in Sources */,
 				57027DE81FB14665004CA66E /* TargetViewController.m in Sources */,
-				57027D5A1FB13F45004CA66E /* UIScrollView+HeaderScaleImage.m in Sources */,
 				57027D4D1FB13F45004CA66E /* UIView+Additions.m in Sources */,
 				57027DCD1FB14665004CA66E /* BaseTabBarController.m in Sources */,
 				57027D4B1FB13F45004CA66E /* NSAttributedString+SizeLab.m in Sources */,
