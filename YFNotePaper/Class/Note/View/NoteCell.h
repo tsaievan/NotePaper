@@ -10,6 +10,8 @@
 
 @interface NoteCell : UITableViewCell
 
+@property (nonatomic, strong) UIColor *leftColor;
+
 + (instancetype)cellWithTableView:(UITableView *)tableView;
 
 @end

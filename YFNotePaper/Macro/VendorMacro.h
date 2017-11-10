@@ -62,6 +62,10 @@
 
 #define NOTEHEADER_HEIGHT           200
 
+#define NOTEBGCELL_HEIGHT           75
+
+#define NOTEBGCELL_PADDING_HEIGHT   8
+
 //图片资源
 #define TB_NOTE                          @"tabbar_icon_memo_unselect"
 #define TB_CAPSULE                       @"tabbar_icon_capsule_unselect"

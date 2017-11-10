@@ -64,6 +64,7 @@
 		5738FFB51FB05B0C00C64C46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5738FFB41FB05B0C00C64C46 /* Assets.xcassets */; };
 		5738FFB81FB05B0C00C64C46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5738FFB61FB05B0C00C64C46 /* LaunchScreen.storyboard */; };
 		5738FFBB1FB05B0C00C64C46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5738FFBA1FB05B0C00C64C46 /* main.m */; };
+		57DEF40B1FB55A2F00C73FF7 /* UIScrollView+HeaderScaleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6840C1FB5574A00107C00 /* UIScrollView+HeaderScaleImage.m */; };
 		E97E152392952065A409CF12 /* Pods_YFNotePaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9B39335A88EE1B7A917080 /* Pods_YFNotePaper.framework */; };
 /* End PBXBuildFile section */
 
@@ -177,6 +178,8 @@
 		5738FFB71FB05B0C00C64C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5738FFB91FB05B0C00C64C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5738FFBA1FB05B0C00C64C46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57B6840C1FB5574A00107C00 /* UIScrollView+HeaderScaleImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HeaderScaleImage.m"; sourceTree = "<group>"; };
+		57B6840D1FB5574A00107C00 /* UIScrollView+HeaderScaleImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HeaderScaleImage.h"; sourceTree = "<group>"; };
 		8B9B39335A88EE1B7A917080 /* Pods_YFNotePaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFNotePaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA61336D89417EA7CE2C8C3C /* Pods-YFNotePaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFNotePaper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YFNotePaper/Pods-YFNotePaper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -311,6 +314,8 @@
 		57027D421FB13F45004CA66E /* YZHeaderScaleImage */ = {
 			isa = PBXGroup;
 			children = (
+				57B6840D1FB5574A00107C00 /* UIScrollView+HeaderScaleImage.h */,
+				57B6840C1FB5574A00107C00 /* UIScrollView+HeaderScaleImage.m */,
 			);
 			path = YZHeaderScaleImage;
 			sourceTree = "<group>";
@@ -780,6 +785,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DEF40B1FB55A2F00C73FF7 /* UIScrollView+HeaderScaleImage.m in Sources */,
 				57027D4E1FB13F45004CA66E /* CSButton.m in Sources */,
 				57027D541FB13F45004CA66E /* UIColor+ImageGetColor.m in Sources */,
 				57027DE21FB14665004CA66E /* SettingViewController.m in Sources */,

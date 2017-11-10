@@ -7,31 +7,30 @@
 //
 
 #import "NoteCell.h"
+@interface NoteCell ()
+@property (weak, nonatomic) IBOutlet UIView *noteBgView;
+@property (weak, nonatomic) IBOutlet UILabel *leftBgLabel;
+@end
 
 @implementation NoteCell
-
-+ (instancetype)cellWithTableView:(UITableView *)tableView
-{
++ (instancetype)cellWithTableView:(UITableView *)tableView {
     static NSString *identifier = @"noteCell";
     NoteCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     if (cell == nil) {
         cell = [[[NSBundle mainBundle] loadNibNamed:@"NoteCell" owner:self options:nil] lastObject];
-        cell.selectedBackgroundView = [[UIView alloc] initWithFrame:cell.frame];
-        cell.selectedBackgroundView.backgroundColor = kUIColorFromRGB(LINE_COLOR);
-        cell.highlighted = NO;
+        cell.noteBgView.layer.cornerRadius = 5;
+        cell.noteBgView.layer.masksToBounds = YES;
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     return cell;
 }
-
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
+- (void)setFrame:(CGRect)frame {
+    frame.size.height = NOTEBGCELL_HEIGHT;
+    frame.size.height -= NOTEBGCELL_PADDING_HEIGHT;
+    [super setFrame:frame];
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+- (void)setLeftColor:(UIColor *)leftColor {
+    _leftBgLabel.backgroundColor = leftColor;
 }
-
 @end

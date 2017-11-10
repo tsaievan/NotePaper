@@ -44,6 +44,13 @@
     _noteTableView.yz_headerScaleImage = [UIImage imageNamed:NOTE_TOP_BG_IMG];
     _noteTableView.tableHeaderView = _noteHeaderCell;
     [self.view addSubview:_noteTableView];
+    
+    //测试显示，下个版本会替换掉
+    _noteArray = [NSMutableArray arrayWithObjects:NOTE_PURPLE,NOTE_RED,NOTE_GREEN,NOTE_YELLOW,NOTE_PURPLE,NOTE_RED,NOTE_GREEN,NOTE_YELLOW, nil];
+    
+    _noteTableView.data = _noteArray;
+    [_noteTableView reloadData];
+    
 }
 
 - (void)didReceiveMemoryWarning {

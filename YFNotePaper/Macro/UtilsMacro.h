@@ -42,9 +42,17 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 #define GRAY            0x666666
 
+#define LINE_GRAY       0xdfdfdf
+
+#define NOTE_PURPLE     kUIColorFromRGB(0x845EF0)
+#define NOTE_RED        kUIColorFromRGB(0xFD8980)
+#define NOTE_GREEN      kUIColorFromRGB(0x32D2B8)
+#define NOTE_YELLOW     kUIColorFromRGB(0xFACC4F)
+
 #define TIP_COLOR        kUIColorFromRGB(0x7F7978)
 #define SUCCESS_COLOR    kUIColorFromRGB(0x2FCBF9)
 #define WARNNING_COLOR   kUIColorFromRGB(0xfa5459)
+
 
 //全局变量属性
 #define app         [[CommonUtil shareInstance] myDelegate]

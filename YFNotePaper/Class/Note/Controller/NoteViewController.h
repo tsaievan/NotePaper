@@ -13,6 +13,8 @@
 
 @interface NoteViewController : BaseViewController
 
+@property (nonatomic, strong) NSMutableArray *noteArray;
+
 @property (nonatomic,strong) NoteTableView *noteTableView;
 @property (nonatomic,strong) NoteHeaderCell *noteHeaderCell;
 @end

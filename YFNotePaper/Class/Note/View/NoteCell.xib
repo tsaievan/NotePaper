@@ -1,40 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="PingFang.ttc">
-            <string>PingFangSC-Regular</string>
-        </array>
-    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="NoteCell">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="79" id="KGk-i7-Jjw" customClass="NoteCell">
+            <rect key="frame" x="0.0" y="0.0" width="302" height="79"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="302" height="78.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="简易便签" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOx-xz-ajs">
-                        <rect key="frame" x="20" y="12.5" width="56" height="20"/>
-                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
-                        <color key="textColor" red="0.12549019610000001" green="0.1058823529" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S27-kN-tTs" userLabel="Note Bg View">
+                        <rect key="frame" x="15" y="0.0" width="272" height="78.5"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mu7-cI-D8V">
+                                <rect key="frame" x="0.0" y="0.0" width="7" height="79"/>
+                                <color key="backgroundColor" red="0.41042346705527022" green="0.99564806368652792" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="7" id="etj-vG-fhp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今天" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Evh-sz-7DL">
+                                <rect key="frame" x="17" y="10" width="29" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下午1:59" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaU-C0-191">
+                                <rect key="frame" x="66" y="11.5" width="49" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="八点要去取快递" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qT-yj-8Ah">
+                                <rect key="frame" x="66" y="36" width="108" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mu7-cI-D8V" firstAttribute="leading" secondItem="S27-kN-tTs" secondAttribute="leading" id="15E-hS-Gm9"/>
+                            <constraint firstItem="Evh-sz-7DL" firstAttribute="top" secondItem="S27-kN-tTs" secondAttribute="top" constant="10" id="1Gx-l0-N3m"/>
+                            <constraint firstItem="Evh-sz-7DL" firstAttribute="leading" secondItem="mu7-cI-D8V" secondAttribute="trailing" constant="10" id="7Gt-Ut-upF"/>
+                            <constraint firstItem="yaU-C0-191" firstAttribute="leading" secondItem="Evh-sz-7DL" secondAttribute="trailing" constant="20" id="Qzp-q1-SJi"/>
+                            <constraint firstItem="8qT-yj-8Ah" firstAttribute="leading" secondItem="yaU-C0-191" secondAttribute="leading" id="Yho-hu-OSP"/>
+                            <constraint firstAttribute="bottom" secondItem="mu7-cI-D8V" secondAttribute="bottom" constant="-0.5" id="Z2p-Qv-x0r"/>
+                            <constraint firstItem="mu7-cI-D8V" firstAttribute="top" secondItem="S27-kN-tTs" secondAttribute="top" id="efz-na-NAa"/>
+                            <constraint firstItem="yaU-C0-191" firstAttribute="centerY" secondItem="Evh-sz-7DL" secondAttribute="centerY" id="tzJ-7s-2A0"/>
+                            <constraint firstItem="8qT-yj-8Ah" firstAttribute="top" secondItem="yaU-C0-191" secondAttribute="bottom" constant="10" id="vLl-MO-Q1I"/>
+                        </constraints>
+                    </view>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="BOx-xz-ajs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="RcG-so-WMq"/>
-                    <constraint firstItem="BOx-xz-ajs" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="hQK-R4-Lm1"/>
+                    <constraint firstAttribute="trailing" secondItem="S27-kN-tTs" secondAttribute="trailing" constant="15" id="7JR-CV-Shs"/>
+                    <constraint firstAttribute="bottom" secondItem="S27-kN-tTs" secondAttribute="bottom" id="8QO-uf-qaJ"/>
+                    <constraint firstItem="S27-kN-tTs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Cny-fd-ZkZ"/>
+                    <constraint firstItem="S27-kN-tTs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="btb-tF-8li"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="leftBgLabel" destination="mu7-cI-D8V" id="fBM-sv-vm8"/>
+                <outlet property="noteBgView" destination="S27-kN-tTs" id="Iho-t0-Amw"/>
+            </connections>
+            <point key="canvasLocation" x="202" y="69"/>
         </tableViewCell>
     </objects>
 </document>
